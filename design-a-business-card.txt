@@ -1,0 +1,69 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="business-card">
+        <img 
+        class="profile-image"
+        src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" 
+        alt="A profile picture of a flower representing the business identity" />
+
+        <p class="full-name">Dan Condon</p>
+        <p class="designation">Web Developer</p>
+        <p class="company">Knuckle Sandwich Tech</p>
+        <hr>
+        <p>daniel@example.com</p>
+        <p>555-555-5555</p>
+        <a href="http://portfoliolinkexample.com" target="_blank">Portfolio</a>
+        <hr />
+        <div class="social-media" />
+            <h2>Connect with me</h2>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="http://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="http://github.com" target="_blank">GitHub</a>
+        </div>
+    </div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  margin: 5px;
+}
+/*Removes underline from all links */
+a {
+  text-decoration: none;
+}
+
+.business-card {
+  width: 300px;
+  background-color: green;
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+.profile-image {
+  max-width: 100%;
+}
+
+** end of styles.css **
+
